@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#introducao_slogan {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#introducao_slogan h2 {
+    margin-top: .3em;
+}
+
+#cadastro_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cadastro {
+    margin-top: 1em;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cadastro div {
+    display: flex;
+    width: 135px;
+    height: 20px;
+    justify-content: space-around;
+}
+
+#confirmar {
+    background-color: green;
+    height: 35px;
+    width: 60px;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+#confirmar:hover {
+    background-color: white;
+    border: green;
+    border-style: solid;
+    color: green;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#apagar {
+    background-color: lightseagreen;
+    height: 35px;
+    width: 60px;
+    color: white;
+    border: none;
+    transition: .5s;
+}
+
+#apagar:hover {
+    background-color: white;
+    border: lightseagreen;
+    border-style: solid;
+    color: lightseagreen;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#link_container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#link_container a {
+    font-size: 16pt;
+}
